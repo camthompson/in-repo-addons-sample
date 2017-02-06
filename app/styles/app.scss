@@ -1,0 +1,10 @@
+$icon-font-path: "../assets/fonts/" !default;
+
+@import "bootstrap/variables";
+@import "bootstrap/mixins";
+@import "bootstrap/glyphicons";
+
+.person-name {
+  @extend .glyphicon;
+  @extend .glyphicon-user;
+}

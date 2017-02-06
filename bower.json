@@ -1,5 +1,7 @@
 {
   "name": "in-repo-addons-sample",
   "dependencies": {
+    "bootstrap-sass-official": "~3.3.0",
+    "jquery-mockjax": "2.1.1"
   }
 }
