@@ -1,5 +1,5 @@
 {
-  "name": "in-repo-addons-sample",
+   "name": "in-repo-addons-sample",
   "version": "0.0.0",
   "description": "Small description for in-repo-addons-sample goes here",
   "license": "MIT",
@@ -37,12 +37,18 @@
     "ember-resolver": "^2.0.3",
     "ember-source": "^2.11.0",
     "loader.js": "^4.0.10",
-    "broccoli-merge-trees": "1.2.1",
-    "broccoli-static-compiler": "0.2.2",
-    "ember-cli-sass": "6.0.0"
+    "ember-cli-sass": "6.0.0",
+    "bootstrap-sass": "3.3.7",
+    "jquery-mockjax": "2.2.1"
   },
   "engines": {
     "node": ">= 0.12.0"
   },
-  "private": true
+  "private": true,
+  "ember-addon": {
+    "paths": [
+      "lib/bootstrap-without-bower",
+      "lib/mockjax-without-bower"
+    ]
+  }
 }
